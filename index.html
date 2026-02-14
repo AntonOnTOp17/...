@@ -1,0 +1,210 @@
+<!I dont think you even check source code but if you're here why are you even here lol. Yk damn well you dont get anything here. Now that I think about it I'm prolly typing to myself but just in case lol.>
+
+<!DOCTYPE html>
+<head>
+  <title>Happy Valentine’s Day</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ff5f9e, #ffb6c1);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px #b30059;
+      margin: 0;
+    }
+
+    /* SECRET LINK FOR DRAKE OR DEXTA */
+    .secret-link {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 120px;
+      height: 80px;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .gallery {
+      position: relative;
+      width: 520px;
+      height: 520px;
+      margin: 50px auto;
+    }
+
+    .center {
+      position: absolute;
+      top: 160px;
+      left: 160px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      z-index: 2;
+      animation: glow 2s infinite alternate;
+    }
+
+    .img {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+      border: 3px solid white;
+      object-fit: cover;
+      z-index: 2;
+      animation: glow 2s infinite alternate;
+    }
+
+    .img1 { top: 0; left: 200px; }
+    .img2 { top: 110px; left: 0; }
+    .img3 { top: 110px; right: 0; }
+    .img4 { bottom: 110px; left: 0; }
+    .img5 { bottom: 110px; right: 0; }
+    .img6 { bottom: 0; left: 200px; }
+
+    @keyframes glow {
+      from { box-shadow: 0 0 10px #ff2f92; }
+      to { box-shadow: 0 0 25px #ff9fcf; }
+    }
+
+    .message {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 1.3em;
+      background: rgba(255, 0, 85, 0.3);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px pink;
+    }
+
+    .love-letter {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 1.2em;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px pink;
+    }
+
+    /* SPECIAL FINAL I LOVE YOU */
+    .final-love {
+      font-family: 'Pacifico', cursive;
+      font-size: 2em;
+      color: #fff;
+      text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff2f92;
+      margin-top: 20px;
+    }
+
+    button {
+      background: #ff2f92;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 0 15px white;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .heart {
+      position: fixed;
+      bottom: -20px;
+      font-size: 20px;
+      color: #ff2f92;
+      animation: float 6s linear infinite;
+      z-index: 1;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-100vh) scale(1.5); opacity: 0; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <a href="https://youtu.be/8ekJMC8OtGU?si=vUd3XFLmlVcL0Zho" class="secret-link"></a>
+    <h1>Happy Valentine’s Day ❤️</h1>
+  </div>
+
+  <div class="gallery">
+    <img src="pichas/img1.jpeg" class="img img1">
+    <img src="pichas/img2.jpeg" class="img img2">
+    <img src="pichas/img3.jpeg" class="img img3">
+    <img src="pichas/img4.jpeg" class="img img4">
+    <img src="pichas/img5.jpeg" class="img img5">
+    <img src="pichas/img6.jpeg" class="img img6">
+    <img src="pichas/center.jpg" class="center">
+  </div>
+
+  <div class="message">
+    <p>To my sweet yet lowkey kinda old love,</p>
+    <p>I just want you to know how much I love you. You came into my life at a time just right and it literally has never been the same since.</p>
+  </div>
+
+  <div class="love-letter">
+    <h3>From Yours Truly</h3>
+    <p>This ain't really my thing as a real dragga and badman but I said hey why not just for today. I know I'm not the best and can be a bit off at times but I really do try to be better. You bring me peace and that's something that I appreciate more than you can imagine. I love spending time with you and I keep on realizing that I really don't deserve you. I don't wanna make this too long but you know all this already anyways lol. (Totally not shortening here so the div doesn't break again)</p>
+
+    <p class="final-love">I love you Brianna.</p>
+
+    <p>PS: Don't click Cancel on the button below because it will literally break the website...</p>
+  </div>
+
+  <button onclick="askValentine()">Click Here for Free Carrot Cake!</button>
+
+<script>
+  setInterval(() => {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤️";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = Math.random() * 20 + 15 + "px";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+      heart.remove();
+    }, 6000);
+  }, 400);
+
+  function askValentine() {
+    let answer = confirm("Brianna, will you be my Valentine?");
+
+    if (answer) {
+      alert("DID AFFI BTW. Thank you and I really do love you Dear, it's an honour to be your valentine🖤.");
+    } else {
+      alert("Why would you even click no  when mi seh it would break the site Crawsis... Fix up dat before mi affi find yuh!");
+      askValentine();
+    }
+  }
+</script>
+
+</body>
+</html>
